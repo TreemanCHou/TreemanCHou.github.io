@@ -18,8 +18,13 @@ gem "minima", "~> 2.5"
 # minimal-mistakes demand me to delete it .
 # gem "github-pages","~> 227", group: :jekyll_plugins
 
-gem "jekyll","~>3.5"
-gem "minimal-mistakes-jekyll"
+# gem "jekyll","~>3.5"
+# gem "minimal-mistakes-jekyll"
+
+# 2022-9-17 @ Lu
+# To use minimal-mistakes remotely on github pages , use the below commands
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 
 
 # If you have any plugins, put them here!
